@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>USERS PAGE</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- CSS only 
+https://getbootstrap.com/ -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/register.css" /> </head>
+<script src ="https://kit.fontawesome.com/c4254e24a8.js" crossorgin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<body>
+	<header>
+	
+        <script defer src="script.js"></script>
+	</header>
+	
+	    <form id="form" method="post" action="register.php">
+                <h1 class="title">CATCHAFLIGHT</h1>
+			
+			<h2>REGISTER</h2>
+                <div class="form-item">
+                    <label class="nametype" for="username">USERNAME:</label>
+				
+					<br> <h5>Username must be atleast 6 charcaters, must contain a letter and a number.</h5>
+					
+                    <input type="text" name="username" id="user_name" placeholder="User1234"  onkeyup="validateUsername()" required >
+					<span id = "name-error"></span>
+                    <br>
+			
+                </div>
+			
+			
+			  <div class="form-item">
+                    <label class="nametype" for="password">PASSWORD:</label>
+				  <br> <h5> Please enter your password.</h5>
+                    <input type="password" name="password" id="password" placeholder="justtony" onkeyup="validatePassword()"required>
+                    <span id = "password-error"></span>
+                </div>
+			
+			<div class="form-item">
+                    <label class="nametype" for="fname">FIRST NAME:</label>
+				<br>
+				<h5> Please enter your first name.</h5>
+                    <input type="text" name="first_name" id="fname" placeholder="Tony"  onkeyup="validateFname()"required>
+					<span id = "fname-error"></span>
+                    <br>
+			
+                </div>
+			<div class="form-item">
+                    <label class="nametype" for="last_name">LAST NAME:</label>
+				<br>
+				<h5> Please enter your last name.</h5>
+                    <input type="text" name="last_name" id="lname" placeholder="Thorne"  onkeyup="validateLname()"required>
+					<span id = "lname-error"></span>
+                    <br>
+	
+                </div>
+			
+			<div class="form-item">
+                    <label class="nametype" for="email">EMAIL:</label>
+				<br> <h5>Please enter your email.</h5>
+                    <input type="email" name="email" id="email" placeholder="tony128@gmail.com" onkeyup="validateEmail()" required>
+					<span id = "email-error"> </span>
+                    <br>
+	
+                </div>
+			
+			<div class="form-item">
+                    <label class="nametype" for="phone_number">PHONE NUMBER:</label>
+				<br>
+				<h5>Please enter your phone number below.</h5>
+                    <input type="number" name="phone_number" id="phone" placeholder="07XXXXXXXXX" onkeyup="validatePhone()" pattern="[0-9]{11}" required>
+					<span id = "phone-error"></span>
+                    <br>
+	
+                </div>
+			
+			<div class="form-item">
+                    <label class="nametype" for="passport_number">PASSPORT NUMBER:</label>
+				<br>
+				<h5>Passport number must contain 9 numbers.</h5>
+                    <input type="number" name="passport_number" id="passport" placeholder="079842738"onkeyup="validatePassport()" pattern="[0-9]{9}" required>
+					<span id = "passport-error"></span>
+                    <br>
+	
+                </div>
+			
+			
+            
+			
+			
+           
+				<!--
+				
+			<div class="form-item">
+                   <!-- <label class="nametype" for="passport">GENDER:</label>
+                    <input type="radio"> Male <input type="radio"> Female<!--username input box 
+					<br> 
+	
+                </div>
+			-->
+                    <button onclick= "return validateForm()" class="btn btn-dark" id="register-button"><p>REGISTER</p></button>
+                    <span id = "submit-error"></span>
+			<aside STYLE="text-decoration:none";><p id="register" > ALREADY HAVE AN ACCOUNT? <a href="index.html">LOGIN</a></p> </aside>
+		<scipt src="/script.js"></scipt>
+            </form>
+	
+	
+	
+	
+</body>
+
+</html>

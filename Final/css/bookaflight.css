@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap');
+
+* {
+	margin: 0;
+    padding: 0;
+}
+body{
+	background:  #102B11; 
+
+}
+
+header{
+    width: 100%;
+    background-color: #FEFEFE;
+    height: 140px;
+
+}
+
+
+
+.title{
+    font-family: 'Karla', bold;
+    color: #123013;
+    float: left;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-size: 65px;
+
+}
+
+h2{
+	font-family: 'Karla', bold;
+    color: lightgray;
+    float: center;
+    position: absolute;
+    top: 29%;
+    left: 24%;
+    font-size: 40px;
+
+}
+
+
+ul{
+	list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+ul li{
+    float: left;
+    width: 200px;
+    height: 40px;
+    position: relative;
+    line-height: 40px;
+    font-size: 15px;
+    text-align: center;
+	text-decoration: none;
+
+}
+
+ul li a{
+    color: #E7EAE7;
+    display: block;
+
+}
+
+
+ul li a:hover{
+    color: white;
+	display: block;
+    background-color: #29442A;
+}
+
+ul li a img{
+    position: relative;
+    left: 10px;
+  
+}
+h3{
+	text-decoration-color: none;
+	color:white;
+	font-size: 20px;
+}
+
+h4{
+	
+	text-decoration-color: none;
+	color:white;
+	font-size: 18px;
+	text-transform: uppercase;
+	  
+}
+
+form{
+	left: 20%;
+	display: inline-block;
+}
+.form-group{
+
+	color: antiquewhite;
+	 width: 450px;
+    padding: 0px;
+    position: relative;
+    top: -2%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #2a4b82;
+    background-color: white;
+    padding: 60px 70px;
+    border-radius: 20px;
+    text-decoration: none;
+
+}
+
+#book-button{
+	width: 100px;
+    border-radius: 20px;
+
+    background: #415942;
+    font-weight: bold;
+    
+}
+
+#book-button p{
+    
+    font-weight: 800;
+    position: relative;
+    top: 50%;
+    transform: translateY(28%);
+
+}
+
+#book-button:hover{
+    background-color: #123013
+}
+

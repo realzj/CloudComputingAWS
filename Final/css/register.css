@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap');
+
+body{
+	margin: 10px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	font-family:Karla, 'Trebuchet MS', sans-serif;;
+    
+}
+
+
+.title{
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 0px;
+    color: #123013;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.images{
+    width: 45px;
+    height: 45px;
+}
+
+
+.form-item{
+    border-bottom: 5px  solid;
+    margin-bottom: 15px;
+	padding: 5px;
+	
+
+}
+
+input{
+	width: 280px;
+	height: 40px;
+}
+
+input::placeholder{
+    color: lightgray;
+ 
+}
+
+
+#login-button, #register-button{
+	width: 100%;
+    border-radius: 20px;
+    background: #415942;
+    font-weight: bold;
+    
+}
+
+#login-button p, #register-button p{
+    
+    font-weight: 800;
+    position: relative;
+    top: 50%;
+    transform: translateY(28%);
+
+}
+
+#login-button:hover, #register-button:hover{
+    background-color: #123013
+}
+
+#register{
+	font-size: 15px;
+	text-decoration: none;
+	text-align: center;
+	justify-content: center;
+	color: #415942;
+	opacity: 20px;
+	
+
+}
+ #registertext-box{
+    width: 450px;
+    padding: 0px;
+    position: relative;
+    top: -2%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #2a4b82;
+    background-color: white;
+    padding: 60px 70px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.form-item span{
+    
+  color: red;
+    }
+
+    #submit-error{
+        color: red
+
+    }
+
+    .form-item span i{
+        color: seagreen;
+
+ }
+
+h5 { font-size: 12px;
+	text-decoration: none;
+	color: #415942;
+	opacity: 20px;
+	
+}

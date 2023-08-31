@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap');
+
+* {
+	margin: 0;
+    padding: 0;
+   font-family: 'Ubuntu Condensed', sans-serif;
+    color: rgb(240, 240, 240);
+    font-size: 35px;
+  }
+  
+
+  body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background:  #102B11; 
+  }
+  
+  header {
+    padding: 10px;
+  }
+
+
+
+.images{
+    width: 45px;
+    height: 45px;
+}
+
+
+
+
+h2{
+	font-family: 'Karla', bold;
+    color: lightgray;
+    float: center;
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    font-size: 40px;
+
+}
+
+
+ul{
+	list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+ul li{
+    float: left;
+    width: 200px;
+    height: 40px;
+    position: relative;
+    line-height: 40px;
+    font-size: 15px;
+    text-align: center;
+	text-decoration: none;
+
+}
+
+ul li a{
+    color: #E7EAE7;
+    display: block;
+
+}
+
+
+ul li a:hover{
+    color: white;
+	display: block;
+    background-color: #29442A;
+}
+
+ul li a img{
+    position: relative;
+    left: 10px;
+  
+}
+
+
+.departures {
+  background-color: rgb(6, 6, 6);
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.departures table {
+  background-color: rgb(46, 46, 46);
+  text-align: left;
+}
+
+.departures table td {
+  height: 50px;
+}
+
+.departures table div {
+  border: solid 4px rgb(26, 26, 26);
+  background-color: black;
+  min-width: 20px;
+  height: 40px;
+  float:left;
+}
+
+#time {
+  width: 160px; 
+}
+
+#destination {
+  width: 260px;
+}
+
+#flight {
+  width: 205px;
+}
+
+#gate {
+  width: 135px;
+}
+
+#remarks {
+  width: 260px;
+}
+
+.flip {
+  animation: 0.5s linear flipping;
+}
+
+@keyframes flipping {
+  0% {
+      transform: rotateX(0deg);
+  }
+  50% {
+      transform: rotateX(90deg);
+  }
+  100% {
+      transform: rotateX(0deg);
+  }
+}
